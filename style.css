@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@300&family=Overpass:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: "Overpass", "sans-serif";
+    font-size: 15px;
+    background-color: hsl(216, 12%, 8%);
+    min-height: 100vh;
+    margin: 1.5rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+button{
+    font-family: inherit;
+}
+
+.main-container,
+.thank-you{
+    background-color: hsl(213, 19%, 18%);
+    padding: 1.5rem;
+    border-radius: 1.5rem;
+    width: 100%;
+    max-width: 400px;
+}
+
+.main-container img{
+    background-color:hsl(215, 19%, 22%);
+    padding: 1rem;
+    border-radius: 50px;
+}
+.main-container h1,
+.thank-you h2{
+    color: hsl(0, 0%, 100%);
+    margin: 1rem 0;
+}
+
+button {
+    font-family: inherit;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+
+p{
+    color: hsl(217, 12%, 63%);
+    line-height: 1.5;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 1rem 0;
+}
+
+.btn{
+    background-color:hsl(215, 19%, 22%);
+    width: 3rem;
+    height: 3rem;
+    color:hsl(217, 12%, 63%);
+    border: none;
+    outline: none;
+    border-radius: 50%;
+    padding-top: 0.3rem;
+    transition: 0.3s;
+}
+
+.btn-submit{
+    margin: 1rem 0;
+    width: 100%;
+    background-color:hsl(25, 97%, 53%);
+    height: 3rem;
+    color:hsl(0, 0%, 100%);
+    border: none;
+    border-radius: 2rem;
+}
+
+.btn-submit:hover {
+    background-color: #fff;
+    color: hsl(25, 97%, 53%);
+}
+
+.thank-you{
+    text-align: center;
+}
+
+.rate-text{
+    display: inline-block;
+    font-size: 0.9rem;
+    background-color: hsl(215, 19%, 22%);
+    border-radius: 2rem;
+    color:hsl(25, 97%, 53%);
+    padding: 0.2rem 1rem;
+}
+
+.thank-you img{
+    display: block;
+    margin: 0 auto 1rem;
+}
+
+.hidden{
+    display: none;
+}
+
+.attribution { 
+    font-size: 11px;
+    text-align: center; 
+    margin: 2rem;
+}
+    
+.attribution a { 
+    color: hsl(228, 45%, 44%);
+}
+
+
